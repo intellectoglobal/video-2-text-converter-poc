@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Audio Transcription</title>
+</head>
+<body>
+    <h1>Enter YouTube URL for Audio Transcription</h1>
+    <form action="/" method="POST">
+        <label for="youtube_url">YouTube URL:</label>
+        <input type="text" id="youtube_url" name="youtube_url" required>
+        <button type="submit">Submit</button>
+    </form>
+    {% if transcription %}
+    <h2>Transcription:</h2>
+    <pre>{{ transcription }}</pre>
+    {% endif %}
+    {% if error %}
+    <h2>Error:</h2>
+    <pre>{{ error }}</pre>
+    {% endif %}
+</body>
+</html>
