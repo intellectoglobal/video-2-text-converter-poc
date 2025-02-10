@@ -1,1 +1,71 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
 env/
+ENV/
+.venv/
+.virtualenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Python wheels
+*.whl
+
+# Test directories
+tests/__pycache__/
+*.pytest_cache/
+
+# Log files
+*.log
+
+# dotenv environment files
+.env
+.env.*
+
+# PyInstaller
+#  Usually these folders are created when you build your project with PyInstaller.
+#  You can add them to .gitignore to prevent clutter in your repository.
+dist/
+build/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code settings folder
+.vscode/
+
+# pytest cache directory
+.cache/
+
+# Coverage reports
+*.coveragerc
+coverage.xml
+*.coverage
+nosetests.xml
+test-results/
+
+# mypy and other static type checkers
+.mypy_cache/
